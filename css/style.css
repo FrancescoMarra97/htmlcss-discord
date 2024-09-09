@@ -182,8 +182,13 @@ li{
   .rect5{
     width: 15%;
   }
+  .footer-top{
+    border-bottom: 0px;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+  }
   .footer-bottom{
-    border-top:1px solid white ;
+    border-top: 1px solid white ;
   }
   .container5{
     display: flex;
@@ -200,8 +205,13 @@ li{
     color: black;
   }
   .botton-footer{
-    margin: 15px 0;
-    color: black;
+    color:white;
+    margin: 1rem; 
+    width: 80px;
+    padding: 1rem 1rem ;
+    background-color:#8ea1e1;
+    border-radius: 20px;
+    font-size: small;
   }
  /* #endregion footer */
 
@@ -301,6 +311,32 @@ li{
     background-color:#8ea1e1;
     border-radius: 20px;
 }
-.bttn1 .bttn2 .bttn3{
+.bttn1, .bttn2, .bttn3{
     text-align: center;
+}
+.column4{
+    background-color: #23272a;
+}
+div.container-column5{
+    background-color: #23272a;
+}
+.text4{
+    color: #8ea1e1;
+    font-size: 25px;
+}
+.ttl{
+    color: #8ea1e1;
+}
+ul{
+    list-style: none;
+}
+li{
+    color: white;
+    font-size: small;
+    align-content: baseline;
+}
+.align-section{
+    display: flex;
+    vertical-align: text-top;
+    align-items:baseline
 }
