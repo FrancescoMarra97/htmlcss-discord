@@ -318,6 +318,8 @@ li{
 }
 .column4{
     background-color: #23272a;
+    display: flex;
+    align-items: flex-start;
 }
 div.container-column5{
     background-color: #23272a;
@@ -341,4 +343,16 @@ li{
     display: flex;
     vertical-align: text-top;
     align-items:baseline
+}
+.language{
+    color: white;
+    padding: 0.75rem;
+    padding-left: 0%;
+}
+.social{
+    display: flex;
+    gap: 1rem;
+}
+i{
+    color: white;
 }
