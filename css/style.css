@@ -106,12 +106,9 @@ li{
     text-align: center;
 }
 .login{
-    margin: 0.2em; 
-    width: 70px;
-    text-align: end;
-    padding: 0.6rem 0.6rem;
-    background-color: white;
-    border-radius: 20px;
+    padding: 0.75rem 1.25rem;
+    background-color:white;
+    border-radius: 1.25rem;
 }
 
 .container {
@@ -232,26 +229,17 @@ li{
     color: white; 
  }
  .bttn1{
-    margin: 0.2em; 
-    width: 70px;
-    text-align: end;
-    padding: 0.6rem 0.6rem;
+    padding: 0.75rem 1.25rem;
     background-color: white;
-    border-radius: 20px;
+    border-radius: 1.25rem;
  }
  .bttn2{
     color: white;
-    margin: 0.2em; 
-    width: 70px;
-    text-align: end;
-    padding: 0.6rem 0.6rem;
+    padding: 0.75rem 1.25rem;
     background-color:rgb(57, 56, 56);
-    border-radius: 20px;
+    border-radius: 1.25rem;
     
  } 
- .bttn1 .bttn2{
-    text-align: center;
- }
  .column1{
     background-image:url(../img/jumbo.png);
     background-size: 100% 100%;
@@ -355,4 +343,9 @@ li{
 }
 i{
     color: white;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
