@@ -134,7 +134,7 @@ li{
     width: 100%;
 }
 .column1{
-    background-image:url(/img/jumbo.png);
+    background-image:url(./img/jumbo.png);
     height: 350px;
     display: flex;
     justify-content: center;
@@ -209,4 +209,36 @@ li{
  /* #utilities */
  .d-flex{
     display: flex;
+ }
+
+ /* 2css */
+ .place-to-talk{
+    /* color: white; fix bcg first*/
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+ }
+ .p1{
+    margin-bottom: 1rem;
+    /* color: white; */
+ }
+ .bttn1{
+    margin: 0.2em; 
+    width: 70px;
+    text-align: end;
+    padding: 0.6rem 0.6rem;
+    background-color: red;
+    border-radius: 20px;
+ }
+ .bttn2{
+    color: white;
+    margin: 0.2em; 
+    width: 70px;
+    text-align: end;
+    padding: 0.6rem 0.6rem;
+    background-color:rgb(57, 56, 56);
+    border-radius: 20px;
+ } 
+ .bttn1 .bttn2{
+
  }
