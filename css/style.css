@@ -77,9 +77,11 @@
    }
    .logo-footer{
     background-color: #f08080;
+    border: 1px dashed black;
    }
    .botton-footer{
     background-color: #f08080;
+    border: 1px dashed black;
    }
 } 
 /* #endregion Debug */
@@ -195,12 +197,10 @@ li{
   }
   .logo-footer{
     margin: 15px 0;
-    border: 1px dashed black;
     color: black;
   }
   .botton-footer{
     margin: 15px 0;
-    border: 1px dashed black;
     color: black;
   }
  /* #endregion footer */
@@ -244,23 +244,29 @@ li{
  }
  .column1{
     background-image:url(../img/jumbo.png);
-    background-size: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
  }
  .txt1{
-    font-size: 45px;
+    font-size: 40px;
     padding-bottom: 1rem;
     text-align: left;
     margin-bottom: 1rem;
  }
  .p2{
     text-align:left;
+    font-size: 20px;
  }
  .text1 .p2{
     vertical-align: baseline;
  }
- .txt2{
-    font-size: 50px;
+ .text2{
+    font-size: 40px;
     padding-bottom: 1rem;
     text-align: left;
     margin-bottom: 1rem;
  }
+ .column3{
+    background-color: #f6f6f6;
+ }
+ 
