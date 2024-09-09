@@ -203,12 +203,12 @@ li{
   }
   .botton-footer{
     color:white;
-    margin: 1rem; 
-    width: 80px;
-    padding: 1rem 1rem ;
+    margin-bottom: auto;
+    margin-top: auto;
+    width:100px;
+    padding: 0.75rem 1.25rem;
     background-color:#8ea1e1;
-    border-radius: 20px;
-    font-size: small;
+    border-radius: 1.25rem;
   }
  /* #endregion footer */
 
